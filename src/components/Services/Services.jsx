@@ -60,7 +60,7 @@ const Services = () => {
             <li>
               <FiCheck className='service__list-icon'/>
               <p>Writing of Product Reviews for different products.</p>
-            </li>
+            </li> 
             {/* <li>
               <FiCheck className='service__list-icon'/>
               <p>Lorem ipsum, dolor sit amet consectetur.</p>
