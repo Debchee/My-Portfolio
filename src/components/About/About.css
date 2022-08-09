@@ -71,6 +71,8 @@
   color: var(--color-light);
 }
 
+/* ========== MEDIA QUERIES(Medium Devices) ========== */
+
 @media screen and (max-width: 1024px){
   .about__container{
     grid-template-columns: 1fr;
@@ -84,6 +86,8 @@
   .about__content p{
     margin: 1rem 0 1.5rem;
   }
+
+  
 }
 
 /* ========== MEDIA QUERIES(Small Devices) ========== */
@@ -112,4 +116,9 @@
  .about__content p{
   margin: 1.5rem 0;
  }
+
+ .me-me{
+  width:200px ;
+  height:200px;
+}
 }
