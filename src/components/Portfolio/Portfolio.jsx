@@ -1,7 +1,7 @@
 import React from 'react';
 import './Portfolio.css';
 import IMG1 from '../../assets/blogpic.png';
-import IMG2 from '../../assets/stitchsavypic.png';
+import IMG2 from '../../assets/socialmedia-app.png';
 import IMG3 from '../../assets/githubpic.png';
 import IMG4 from '../../assets/Farmvestpic.png';
 import IMG5 from '../../assets/Traccalpic.png';
@@ -20,9 +20,9 @@ const data = [
   {
     id:2,
     image:IMG2,
-    title:'StitchSavy Fashion Landing Page',
-    github:'https://github.com/Debchee/StitchSavy',
-    demo:'https://stitch-savy.vercel.app/'
+    title:'A Social Media website',
+    github:'https://github.com/Debchee/My-Social-Media-Site',
+    demo:'My-socialmedia-app.surge.sh'
   },
 
   {
