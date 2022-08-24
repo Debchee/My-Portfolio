@@ -6,6 +6,9 @@ import IMG3 from '../../assets/githubpic.png';
 import IMG4 from '../../assets/Farmvestpic.png';
 import IMG5 from '../../assets/Traccalpic.png';
 import IMG6 from '../../assets/Hitchedpic.png';
+import IMG7 from '../../assets/stitchsavypic.png';
+
+
 
 
 const data = [
@@ -27,6 +30,14 @@ const data = [
 
   {
     id:3,
+    image:IMG7,
+    title:'A Fahion landing page',
+    github:'https://github.com/Debchee/StitchSavy',
+    demo:'https://stitch-savy.vercel.app/'
+  },
+
+  {
+    id:4,
     image:IMG3,
     title:'A Git-hub Finder App',
     github:'https://github.com/Debchee/My-Git-Hub-Finder',
@@ -34,7 +45,7 @@ const data = [
   },
 
   {
-    id:4,
+    id:5,
     image:IMG4,
     title:'An Agro Landing page',
     github:'https://github.com/Grace229/FarmVest',
@@ -42,15 +53,17 @@ const data = [
   },
 
   {
-    id:5,
+    id:6,
     image:IMG5,
     title:'A Calorie Tracker App',
     github:'https://github.com/Debchee/TracCalorie',
     demo:'http://trac-calorie.surge.sh/'
   },
 
+  
+
   {
-    id:6,
+    id:7,
     image:IMG6,
     title:'A Dating Website(Hitched)',
     github:'https://github.com/Debchee/Hitched-App',
