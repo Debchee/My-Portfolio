@@ -9,7 +9,7 @@ const Services = () => {
       <h2>Services</h2>
 
       <div class="container services__container">
-        <article className="service">
+        {/* <article className="service">
           <div className="service__head">
               <h3>Web Development</h3>
           </div>
@@ -22,7 +22,7 @@ const Services = () => {
             <li>
               <FiCheck className='service__list-icon'/>
               <p>Hosting of website on external servers.</p>
-            </li>
+            </li> */}
             {/* <li>
               <FiCheck className='service__list-icon'/>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -39,19 +39,19 @@ const Services = () => {
               <FiCheck className='service__list-icon'/>
               <p>Lorem ipsum, dolor sit amet consectetur.</p>
             </li> */}
-          </ul>
-        </article>
+          {/* </ul>
+        </article> */}
            {/* End of Web Dev */}
 
            <article className="service">
           <div className="service__head">
-              <h3>Content Creation</h3>
+              <h3>SEO Content Writing</h3>
           </div>
 
           <ul className='service__list'>
             <li>
               <FiCheck className='service__list-icon'/>
-              <p>Creation of engaging website articles</p>
+              <p>Creation of SEO engaging website articles</p>
             </li>
             <li> 
               <FiCheck className='service__list-icon'/>
@@ -61,11 +61,11 @@ const Services = () => {
               <FiCheck className='service__list-icon'/>
               <p>Writing of Product Reviews for different products.</p>
             </li> 
-            {/* <li>
-              <FiCheck className='service__list-icon'/>
-              <p>Lorem ipsum, dolor sit amet consectetur.</p>
-            </li>
             <li>
+              <FiCheck className='service__list-icon'/>
+              <p>Writing of engaging email news letters.</p>
+            </li>
+            {/* <li>
               <FiCheck className='service__list-icon'/>
               <p>Lorem ipsum, dolor sit amet consectetur.</p>
             </li>

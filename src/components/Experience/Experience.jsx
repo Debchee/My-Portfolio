@@ -10,47 +10,47 @@ const Experience = () => {
 
       <div class="container experience__container">
         <div class="experience__frontend">
-          <h3>FrontEnd Development</h3>
+          <h3>SEO Content Writer</h3>
           <div class="experience__content">
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-              <h4>HTML</h4>
+              <h4>Article Writing</h4>
               <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-              <h4>CSS</h4>
+              <h4>SEO</h4>
               <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-              <h4>JavaScript</h4>
+              <h4>Product Reviews</h4>
               <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-              <h4>BootStrap</h4>
+              <h4>Social Media Content</h4>
               <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-              <h4>React</h4>
-              <small className='text-light'>Intermediate</small>
+              <h4>Blog Posts</h4>
+              <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience__details'>
               <BsPatchCheckFill className='experience__details-icon'/>
               <div>
-              <h4>TailWind</h4>
+              <h4>Email Newsletters</h4>
               <small className='text-light'>Experienced</small>
               </div>
             </article>
@@ -58,7 +58,7 @@ const Experience = () => {
         </div>
 
         {/* ======END OF FRONTEND ===== */}
-        <div class="experience__backend">
+        {/* <div class="experience__backend">
         <h3>BackEnd Development</h3>
           <div class="experience__content">
             <article className='experience__details'>
@@ -76,7 +76,7 @@ const Experience = () => {
               </div>
             </article>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )

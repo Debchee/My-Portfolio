@@ -1,10 +1,10 @@
 import React from 'react';
 import './Portfolio.css';
-import IMG1 from '../../assets/blogpic.png';
-import IMG2 from '../../assets/socialmedia-app.png';
-import IMG3 from '../../assets/githubpic.png';
-import IMG4 from '../../assets/Farmvestpic.png';
-import IMG5 from '../../assets/Traccalpic.png';
+import IMG1 from '../../assets/SEO Image2.jpg';
+import IMG2 from '../../assets/data engineering.jpg';
+import IMG3 from '../../assets/twitter-elon-musk.png';
+import IMG4 from '../../assets/fake number.jpg';
+import IMG5 from '../../assets/Friend partty.jpg';
 import IMG6 from '../../assets/Hitchedpic.png';
 import IMG7 from '../../assets/stitchsavypic.png';
 
@@ -15,60 +15,60 @@ const data = [
   {
     id:1,
     image:IMG1,
-    title:'My blog site',
-    github:'https://github.com/Debchee/My-Site',
-    demo:' https://chiblogsite.herokuapp.com/'
+    title:'Why your business needs SEO marketing',
+    // github:'https://github.com/Debchee/My-Site',
+    demo:' https://www.linkedin.com/pulse/5-reasons-your-business-needs-seo-marketing-chidinma-nwonye'
   },
 
   {
     id:2,
     image:IMG2,
-    title:'A Social Media website',
-    github:'https://github.com/Debchee/My-Social-Media-Site',
-    demo:'My-socialmedia-app.surge.sh'
+    title:'An overview of Data Engineering',
+    // github:'https://github.com/Debchee/My-Social-Media-Site',
+    demo:'https://medium.com/@debbinwonye456/what-is-data-engineering-overview-of-a-high-demand-analytics-role-abe449af53e8'
   },
 
   {
     id:3,
-    image:IMG7,
-    title:'A Fahion landing page',
-    github:'https://github.com/Debchee/StitchSavy',
-    demo:'https://stitch-savy.vercel.app/'
+    image:IMG3,
+    title:'Is it the layoff season? (A newsletter for Greysoft Technologies with over 40% open rate)',
+    // github:'https://github.com/Debchee/StitchSavy',
+    demo:'https://ckarchive.com/b/p9ueh9h357qrl'
   },
 
   {
     id:4,
-    image:IMG3,
-    title:'A Git-hub Finder App',
-    github:'https://github.com/Debchee/My-Git-Hub-Finder',
-    demo:'http://chi-git-finder.surge.sh/'
+    image:IMG4,
+    title:'Heres why she gave you a fake number',
+    // github:'https://github.com/Debchee/My-Git-Hub-Finder',
+    demo:'https://www.markercontent.com/articles/lifestyle/heres-why-she-gave-you-a-fake-number-249284'
   },
 
   {
     id:5,
-    image:IMG4,
-    title:'An Agro Landing page',
-    github:'https://github.com/Grace229/FarmVest',
-    demo:'http://interesting-blade.surge.sh/'
+    image:IMG5,
+    title:'How to Detty December on a Budget',
+    // github:'https://github.com/Grace229/FarmVest',
+    demo:'https://medium.com/@debbinwonye456/how-to-detty-december-on-a-budget-997c8bcf87fe'
   },
 
-  {
-    id:6,
-    image:IMG5,
-    title:'A Calorie Tracker App',
-    github:'https://github.com/Debchee/TracCalorie',
-    demo:'http://trac-calorie.surge.sh/'
-  },
+  // {
+  //   id:6,
+  //   image:IMG5,
+  //   title:'A Calorie Tracker App',
+  //   github:'https://github.com/Debchee/TracCalorie',
+  //   demo:'http://trac-calorie.surge.sh/'
+  // },
 
   
 
-  {
-    id:7,
-    image:IMG6,
-    title:'A Dating Website(Hitched)',
-    github:'https://github.com/Debchee/Hitched-App',
-    demo:'https://hitched-app.vercel.app/'
-  },
+  // {
+  //   id:7,
+  //   image:IMG6,
+  //   title:'A Dating Website(Hitched)',
+  //   github:'https://github.com/Debchee/Hitched-App',
+  //   demo:'https://hitched-app.vercel.app/'
+  // },
 ]
 
 
@@ -90,8 +90,8 @@ const Portfolio = () => {
 
           <h3>{title}</h3>
           <div className='portfolio__item-cta'>
-          <a href={github} className='btn'>Github</a>
-          <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+          {/* <a href={github} className='btn'>Github</a> */}
+          <a href={demo} className='btn btn-primary' target='_blank'>Article Link</a>
           </div>
         </article>
             )

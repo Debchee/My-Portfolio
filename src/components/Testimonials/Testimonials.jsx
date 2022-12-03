@@ -1,8 +1,8 @@
 import React from 'react';
 import './Testimonials.css';
-import AVART1 from '../../assets/waawpic1.png';
-import AVART2 from '../../assets/MrSunday pic.png';
-import AVART3 from '../../assets/Miss Gracepic.png';
+import AVART1 from '../../assets/Bilal.png';
+import AVART2 from '../../assets/notemast.png';
+import AVART3 from '../../assets/Mariya.png';
 import AVART4 from '../../assets/Prosperpic.png';
 
 // import Swiper core and required modules 
@@ -19,23 +19,23 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: AVART1,
-    name: 'WAAW Foundation',
-    review: 'Exceptional attitude to learning, deligient and completes project on time. A listener and team worker.'
+    name: 'Bilal Salau - Creative Director at Greysoft Technologies',
+    review: 'Exceptional content writer with an indepth knowledge on SEO. A listener and team worker.'
   },
   {
     avatar: AVART2,
-    name: 'Sunday Ishiaku Software developer and Project manager WAAW Foundation',
-    review: 'Excellent team worker, pays attention to details and turns in projects on time. Builds and delivers projects on time.'
+    name: 'Nonso Nwagbo - Lead Content Writer, Notemast Media',
+    review: 'Excellent team worker, pays attention to details and turns in projects on time.'
   },
   {
     avatar: AVART3,
-    name: 'Grace Itiung, Software developer WAAW Foundation',
-    review: 'Completes projects and delivers outstandindly. Pays attention to details.'
+    name: 'Mariya, - Community Manager at Greysoft Technologies',
+    review: 'Chidinma delivers SEO articles in a way thats both engaging and relatable. Well done!'
   },
   {
     avatar: AVART4,
     name: 'Prosper Ubi, CEO and co-founder Lazerpay, CEO Ubique Media',
-    review: 'Builds and delivers amazing website designs and functionality is top-notch. Exactly what the company needs to get the perfect user interface with our clients.'
+    review: 'Writes SEO articles that attracts the right audience to take desired actions. No better writer!'
   },
 
 ]
