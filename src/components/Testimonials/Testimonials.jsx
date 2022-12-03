@@ -34,7 +34,7 @@ const data = [
   },
   {
     avatar: AVART4,
-    name: 'Prosper Ubi, CEO and co-founder Lazerpay, CEO Ubique Media',
+    name: 'Prosper Ubi, COO and co-founder Lazerpay, CEO Ubique Media, CEO IGrow Africa',
     review: 'Writes SEO articles that attracts the right audience to take desired actions. No better writer!'
   },
 
