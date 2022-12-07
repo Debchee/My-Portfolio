@@ -59,11 +59,11 @@ const Services = () => {
             </li>
             <li>
               <FiCheck className='service__list-icon'/>
-              <p>Writing of Product Reviews for different products.</p>
+              <p>Writing of Product Reviews.</p>
             </li> 
             <li>
               <FiCheck className='service__list-icon'/>
-              <p>Writing of engaging email news letters.</p>
+              <p>Writing of converting email news letters.</p>
             </li>
             {/* <li>
               <FiCheck className='service__list-icon'/>

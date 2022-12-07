@@ -5,7 +5,7 @@ import IMG2 from '../../assets/data engineering.jpg';
 import IMG3 from '../../assets/twitter-elon-musk.png';
 import IMG4 from '../../assets/fake number.jpg';
 import IMG5 from '../../assets/Friend partty.jpg';
-import IMG6 from '../../assets/Hitchedpic.png';
+import IMG6 from '../../assets/ecofriendly christmas.jpg';
 import IMG7 from '../../assets/stitchsavypic.png';
 
 
@@ -52,13 +52,13 @@ const data = [
     demo:'https://medium.com/@debbinwonye456/how-to-detty-december-on-a-budget-997c8bcf87fe'
   },
 
-  // {
-  //   id:6,
-  //   image:IMG5,
-  //   title:'A Calorie Tracker App',
-  //   github:'https://github.com/Debchee/TracCalorie',
-  //   demo:'http://trac-calorie.surge.sh/'
-  // },
+  {
+    id:6,
+    image:IMG6,
+    title:'How to have an Eco-friendly Christmas',
+    // github:'https://github.com/Debchee/TracCalorie',
+    demo:'https://medium.com/@debbinwonye456/how-to-have-an-eco-friendly-and-green-christmas-22e83e011478/'
+  },
 
   
 
